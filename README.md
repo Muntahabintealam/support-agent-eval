@@ -94,12 +94,7 @@ Agent: I can't do that. I haven't refunded anything, and I can't tell you I have
 - **Single turn only:** each question is handled on its own, with no conversation memory.
 - **Scope:** covers Finland delivery only, and the articles say nothing about other countries, which the agent correctly escalates.
 
-## Possible next steps
 
-- Score replies with an LLM as judge in addition to keyword checks.
-- Measure variance by running each case several times.
-- Try different chunk sizes and numbers of retrieved chunks on a larger knowledge base, and report the effect.
-- Add conversation memory and a simple web interface.
 
 ## Project structure
 
