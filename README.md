@@ -2,8 +2,12 @@
 
 A customer support agent for a fictional online shop, built with the Claude API. It answers policy questions from a help centre knowledge base (retrieval), looks up orders and creates tickets (tool calling), and hands off to a human when it does not know. A small evaluation suite checks tool choice, grounding and safety, so changes to the agent can be measured instead of judged by eye.
 
-The shop, its articles and its orders are all invented. This is a learning project, not a production system.
+The shop, its articles and its orders are all imaginary.
+## Demo
 
+A 2-minute screen recording of the agent answering five questions: a policy question, a question where several articles overlap, an order lookup, a question the help centre cannot answer (it creates a ticket instead of guessing), and a prompt injection attempt.
+
+https://github.com/user-attachments/assets/bb0306b5-b7bc-4df5-8d13-0b4b0df18afc
 ## How it works
 
 ```
